@@ -50,13 +50,13 @@ export default class SessionHandler {
         this._div.style.position = 'absolute';
         this._div.style.bottom = '20px';
         this._div.style.width = '100%';
+        this._div.style.textAlign = 'center';
         this._button.style.padding = '12px';
         this._button.style.border = '1px solid #fff';
         this._button.style.borderRadius = '4px';
         this._button.style.background = 'rgba(0,0,0,0.1)';
         this._button.style.color = '#fff';
         this._button.style.font = 'normal 13px sans-serif';
-        this._button.style.textAlign = 'center';
         this._button.style.opacity = '0.5';
         this._button.style.outline = 'none';
         this._button.onmouseenter = () => { this._button.style.opacity = '1.0'; };

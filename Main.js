@@ -99,7 +99,7 @@ export default class Main {
 
     _update() {
         let timeDelta = this._clock.getDelta();
-        let rotationAmount = timeDelta * 0.5; //0.5 rotations per second
+        let rotationAmount = 2 * Math.PI * timeDelta * 0.1; //0.1 rotations per second
         this._shapes.rotation.x += rotationAmount;
         this._shapes.rotation.y += rotationAmount;
         this._sessionHandler.update();

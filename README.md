@@ -1,2 +1,2 @@
-# getting_started_with_webxr_part_4
+# Getting Started With WebXR Part 4
 Finished code for Tutorial

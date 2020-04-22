@@ -28,7 +28,7 @@ if('xr' in navigator) {
             }
         }).catch(function() {
             checkIfPointer();
-        }).finally( () => {
+        }).finally(function() {
             start();
         });
 } else {
