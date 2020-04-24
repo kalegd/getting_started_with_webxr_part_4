@@ -1,6 +1,6 @@
-import { VRButton } from './VRButton.js';
-import { PointerLockControls } from './PointerLockControls.js';
-import { DeviceOrientationControls } from './DeviceOrientationControls.js';
+import { VRButton } from '../three/examples/jsm/webxr/VRButton.js';
+import { PointerLockControls } from '../three/examples/jsm/controls/PointerLockControls.js';
+import { DeviceOrientationControls } from '../three/examples/jsm/controls/DeviceOrientationControls.js';
 import global from './global.js';
 
 export default class SessionHandler {
